@@ -9,7 +9,7 @@ jobs:
     steps:
       # Step 1: Perform checkout from the repository and branch close
       - name: Checkout external repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: abystoma/external-workflow
           ref: branch    # the branch named 'branch'
