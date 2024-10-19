@@ -1,0 +1,20 @@
+name: branch_checkout
+
+on: [push]
+
+jobs:
+  external-workflow:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Perform checkout from the repository and branch close
+      - name: Checkout external repository
+        uses: actions/checkout@v2
+        with:
+          repository: abystoma/external-workflow
+          ref: branch    # the branch named 'branch'
+
+      # Step 2: Display the contents of the greetings.txt file
+      - name: Greetings
+        run: echo "$(<greeting.txt)"
+
