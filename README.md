@@ -69,5 +69,5 @@ Technologies Used
 License
 
 This project is licensed under the MIT License. 
-See the [LICENSE](./LICENSE) file for more details.
+See the [LICENSE](https://github.com/Grze520/branch-checkout-action/blob/main/LICENSE) file for more details.
 
