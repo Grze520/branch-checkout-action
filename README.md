@@ -41,7 +41,7 @@ jobs:
       # Step 2: Display the contents of the greetings.txt file
       - name: Greetings
         run: echo "$(<greetings.txt)"
-
+```
 
 How to Use
 
